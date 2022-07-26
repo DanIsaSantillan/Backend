@@ -4,7 +4,7 @@
         private $host = "localhost";
         private $database_name = "backend";
         private $username = "root";
-        private $password = "";
+        private $password = "root";
         public $conn;
 
         public function getConnection() {
