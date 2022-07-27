@@ -23,7 +23,7 @@ echo $x;*/
 $data = array(
     "data"=>[
         array("ContactId"=>"1", "Name"=>"Veronica", "Phone"=>"4494656742", "Date"=>"2022/07/01", "Status"=>"Activo"),
-        array("id"=>"2", "contact"=>"Laura", "phone"=>"4494656778", "date"=>"2022/07/11", "status"=>"No Activo")
+        array("ContactId"=>"2", "Name"=>"Laurelia", "Phone"=>"4494656778", "Date"=>"2022/07/11", "Status"=>"No Activo")
     ]
 );
 

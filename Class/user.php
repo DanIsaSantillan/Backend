@@ -83,11 +83,11 @@
             $stmt->execute();
 
             $dataRow = $stmt->fetch(PDO::FETCH_ASSOC);
-            $this->Name = $dataRow('Name');
-            $this->Phone = $dataRow('Phone');
-            $this->Date = $dataRow('Date');
-            $this->Status = $dataRow('Status');
-            $this->ContactId = $dataRow('ContactId');
+            $this->Name = $dataRow("Name");
+            $this->Phone = $dataRow("Phone");
+            $this->Date = $dataRow("Date");
+            $this->Status = $dataRow("Status");
+            $this->ContactId = $dataRow("ContactId");
         }
 
     }

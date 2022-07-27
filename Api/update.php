@@ -12,11 +12,11 @@
     $item = new User($db);
     $data = json_decode(file_get_contents("php://input"));
 
-    $item->name = $data->name;
-    $item->phone = $data->phone;
-    $item->date = $data->date;
-    $item->status = $data->status;
-    $item->contactId = $data->contactId;
+    $item->Name = $data->Name;
+    $item->Phone = $data->Phone;
+    $item->Date = $data->Date;
+    $item->Status = $data->Status;
+    $item->ContactId = $data->ContactId;
 
     try {
         $item->updateUser();

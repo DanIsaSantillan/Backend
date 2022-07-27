@@ -13,6 +13,8 @@
      $item = new User($db);
      $data = json_decode(file_get_contents("php://input"));
 
+     
+     $item->ContactId = $data->ContactId;
      $item->Name = $data->Name;
      $item->Phone = $data->Phone;
      $item->Date = $data->Date;
