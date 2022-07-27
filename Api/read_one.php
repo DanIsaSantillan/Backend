@@ -15,7 +15,7 @@
     $item->getSingleUser();
 
     if ($item->Name != null) {
-        $data = array(
+        $data = array (
             "ContactId" => $item->ContactId,
             "Name" => $item->Name,
             "Phone" => $item->Phone,

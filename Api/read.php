@@ -24,11 +24,11 @@
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
             extract($row);
             $data = array(
-                "ContactId" => $item->ContactID,
-                "Name" => $item->Name,
-                "Phone" => $item->Phone,
-                "Date" => $item->Date,
-                "Status" => $item->Status
+                "ContactId" => $ContactID,
+                "Name" => $Name,
+                "Phone" => $Phone,
+                "Date" => $Date,
+                "Status" => $Status
             );
             array_push($userArr["body"], $data);
         }
